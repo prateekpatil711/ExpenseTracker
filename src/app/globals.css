@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.addExpense{
+    background-color: aliceblue;
+    width: 324px;
+    border: 3px white solid;
+    border-radius: 2px;
+}
+.expenseTextfield{
+    margin: 1rem;
+}
+
+.Menubar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links{
+    margin: 1rem 2rem;
+}
+
+.paper{
+    width: 60vw;
+    height: 60vh;
+
+}
+
+.expensedisp{
+    background-color: azure;
+    border-radius: 2px;
+    margin: 2px;
+    color: black;
+    width: 240px;
+    padding: 3px;
+}
+
+.stlbtn{
+    margin: 3px;
+}
